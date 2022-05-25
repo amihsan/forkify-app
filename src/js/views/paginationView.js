@@ -58,11 +58,10 @@ class PaginationView extends View {
         </svg>
       </button>
       <button class="btn--inline pagination">
-            <svg class="search__icon">
-              <use href="${icons}"></use>
-            </svg>
-            <span>${curPage} / ${numPages}</span>
-            
+        <span>${curPage} / ${numPages}</span>
+        <svg class="search__icon">
+          <use href="${icons}"></use>
+        </svg>
       </button>
       <button data-goto="${
         curPage - 1
