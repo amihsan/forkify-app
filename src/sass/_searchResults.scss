@@ -12,6 +12,7 @@
 .pagination {
   margin-top: auto;
   padding: 0 3.5rem;
+  display: flex;
 
   &::after {
     content: '';
@@ -22,6 +23,10 @@
   &__btn {
     &--prev {
       float: left;
+      margin-right: 20px;
+    }
+    &--total {
+      margin-right: 20px;
     }
     &--next {
       float: right;
